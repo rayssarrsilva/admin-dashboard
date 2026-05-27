@@ -24,7 +24,7 @@ img {
   max-inline-size: 100%;
 }
 
-/*------------*/
+/*Main layout*/
 
 .sidebar {
   background-color: rgb(6, 115, 165);
@@ -57,3 +57,23 @@ img {
   background-color: rgb(236, 236, 236);
 }
 
+/*content-layout*/
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*your projects*/
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projects div {
+  background-color: aquamarine;
+}
