@@ -41,6 +41,7 @@ img {
   grid-row: 1 / 2;
   width: 100vw;
   height: 20vh;
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.3);
 }
 
 .main-content {
