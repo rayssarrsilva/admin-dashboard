@@ -2,7 +2,6 @@
 @import "modern-normalize";
 
 :root {
-  line-height: 1.5;
   --blue: rgb(6, 115, 165);
 }
 
@@ -43,9 +42,13 @@ body {
   /*elements layout*/
   display: grid;
   grid-template-columns: minmax(2.4vh, 5vh) auto;
-  padding: 20px;
   /*style*/
   color: white;
+  padding-top: 15px;
+  padding-left: 30px;
+
+  align-content: start;
+  row-gap: 18px;
 }
 
 .sidebar a:nth-child(2) {
@@ -78,6 +81,8 @@ svg {
   display: grid;
   grid-template-columns: 17vw auto;
   grid-template-rows: auto 1fr;
+  padding: 0;
+  margin: 0;
 }
 
 /*content-layout*/
