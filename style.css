@@ -44,7 +44,7 @@ body {
   grid-template-columns: minmax(2.4vh, 5vh) auto;
   /*style*/
   color: white;
-  padding-top: 15px;
+  padding-top: 19px;
   padding-left: 30px;
 
   align-content: start;
@@ -102,4 +102,9 @@ button {
   border-color: var(--blue);
   border: none;
   padding: 5px 19px;
+}
+
+.sidebar svg:first-child,
+.sidebar a:first-of-type {
+  margin-bottom: 30px; 
 }
