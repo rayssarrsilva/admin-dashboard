@@ -155,5 +155,20 @@ img[src$=".png"]{
 
 .buttons{
   display: flex;
-  gap: 15px;
+  gap: 13px;
+}
+
+.bottom-left div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-left img {
+  width: 7.5vh;
 }
