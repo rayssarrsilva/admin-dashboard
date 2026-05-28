@@ -127,3 +127,16 @@ button {
 .search-bar input:focus {
   box-shadow: 0 3px 6px var(--blue);
 }
+
+img[src$=".png"]{
+  width: 8vh;
+  height: auto;
+}
+
+.right img{
+  width: 5vh;
+}
+
+.right p {
+  font-weight: bold;
+}
