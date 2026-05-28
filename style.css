@@ -3,6 +3,7 @@
 
 :root {
   line-height: 1.5;
+  --blue: rgb(6, 115, 165);
 }
 
 h1, h2, h3, h4, h5, figure, p, ol, ul {
@@ -76,4 +77,14 @@ img {
 
 .projects div {
   background-color: aquamarine;
+}
+
+
+button {
+  color: white;
+  background-color: rgb(6, 115, 165);
+  border-radius: 16px;
+  border-color: var(--blue);
+  border: none;
+  padding: 5px 19px;
 }
