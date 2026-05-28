@@ -138,6 +138,11 @@ img[src$=".png"]{
   width: 5vh;
 }
 
-.right p {
+.header p {
   font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
 }
