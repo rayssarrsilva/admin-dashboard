@@ -120,7 +120,7 @@ button {
   background-color: var(--grey);
   border: var(--grey);
   border-radius: 20px;
-  width: 20vw;
+  width: 33vw;
   padding: 3px;
   outline: none;
 }
