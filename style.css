@@ -80,7 +80,7 @@ svg {
   height: 100vh;
   display: grid;
   grid-template-columns: 17vw auto;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 23vh 1fr;
   padding: 0;
   margin: 0;
 }
