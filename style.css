@@ -43,9 +43,19 @@ body {
   /*elements layout*/
   display: grid;
   grid-template-columns: minmax(2.4vh, 5vh) auto;
-  padding: 20px;  
+  padding: 20px;
   /*style*/
   color: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+svg {
+  fill: white;
 }
 
 .header {
