@@ -248,6 +248,11 @@ article .project-icons {
   gap: 15px;
 }
 
-#The-projects article h2 {
+#The-projects article h2, #your-projects h3{
   font-weight: bold;
+}
+
+#your-projects h3 {
+  margin-left: 27px;
+  margin-bottom: 20px;
 }
