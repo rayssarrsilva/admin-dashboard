@@ -245,5 +245,9 @@ img[src$=".png"]{
 article .project-icons {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 15px;
+}
+
+#The-projects article h2 {
+  font-weight: bold;
 }
