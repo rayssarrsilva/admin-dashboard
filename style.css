@@ -101,6 +101,8 @@ a {
 
   display: grid;
   grid-template: auto / repeat(2, minmax(auto, 80%));
+
+  padding-top: 49px;
 }
 
 button {
@@ -219,6 +221,7 @@ img[src$=".png"]{
   background-color: #FCFCFC;
   border-left: 9px solid var(--yellow);
   padding: 20px;
+  margin-bottom: 10px;
 }
 
 #The-projects {
@@ -229,3 +232,6 @@ img[src$=".png"]{
   margin-left: 23px;
 }
 
+.project, .header {
+  box-shadow: 0 2px 6px grey;
+}
