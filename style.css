@@ -210,10 +210,16 @@ img[src$=".png"]{
 
 .project {
   --yellow: rgb(255, 145, 0);
-  width: 30%;
+  width: 70%;
   height: 25vh;
   border-radius: 8px;
   background-color: #FCFCFC;
   border-left: 6px solid var(--yellow);
   padding: 20px;
+}
+
+#The-projects {
+  display: grid;
+  grid-template: auto / repeat(2, minmax(30%, auto));
+  gap: 14px;
 }
