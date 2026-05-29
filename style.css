@@ -102,7 +102,7 @@ button {
   border-radius: 16px;
   border-color: var(--blue);
   border: none;
-  padding: 0 20px;
+  padding: 9px 24px;
 }
 
 .sidebar svg:first-child,
@@ -157,7 +157,7 @@ img[src$=".png"]{
 
 .buttons{
   display: flex;
-  gap: 13px;
+  gap: 20px;
 }
 
 .bottom-left div {
