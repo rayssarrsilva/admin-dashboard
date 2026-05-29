@@ -226,6 +226,7 @@ img[src$=".png"]{
   display: grid;
   grid-template: auto / repeat(2, minmax(30%, auto));
   gap: 24px;
-  margin-left: 10px;
+  column-gap: 34px;
+  margin-left: 18px;
 }
 
