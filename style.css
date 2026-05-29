@@ -102,7 +102,7 @@ a {
   display: grid;
   grid-template: auto / repeat(2, minmax(auto, 80%));
 
-  padding-top: 49px;
+  padding-top: 30px;
 }
 
 button {
