@@ -81,7 +81,7 @@ a {
   height: 100vh;
   display: grid;
   grid-template-columns: 20vw auto;
-  grid-template-rows: 19vh 1fr;
+  grid-template-rows: 19.7vh 1fr;
   padding: 0;
   margin: 0;
 }
