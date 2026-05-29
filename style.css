@@ -235,3 +235,9 @@ img[src$=".png"]{
 .project, .header {
   box-shadow: 0 2px 6px grey;
 }
+
+#The-projects article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
