@@ -92,20 +92,19 @@ a {
 }
 
 .main-content {
-  display: grid;
   grid-row: 2/ 3;
   background-color: rgb(242, 236, 236);
   border: 2px solid black;
-  grid-template-columns: repeat(2, 419px) 298px;
-  grid-template-rows: 30px 80px 80px;
-  gap: 20px;
-  padding-left: 20px;
-  padding-top: 90px;
 
   overflow-y: auto;
   overflow-x: hidden;
   min-height: 0;
 }
+
+#your-projects, #announcements, #trending {
+  border: 3px solid red;
+}
+
 
 button {
   color: white;
@@ -207,7 +206,3 @@ img[src$=".png"]{
   margin-top: 8px;
 }
 
-#your-projects, #announcements, #trending {
-  border: 3px solid red;
-  height: 600px;
-}
