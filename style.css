@@ -207,3 +207,10 @@ img[src$=".png"]{
 .project-icons svg {
   width: 2.4vh;
 }
+
+.project {
+  --yellow: rgb(255, 145, 0);
+  width: 30%;
+  height: 25vh;
+  border-left: 6px solid var(--yellow);
+}
