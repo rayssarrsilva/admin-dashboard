@@ -100,12 +100,6 @@ a {
   overflow-x: hidden;
   min-height: 0;
 }
-
-#your-projects, #announcements, #trending {
-  border: 3px solid red;
-}
-
-
 button {
   color: white;
   background-color: rgb(6, 115, 165);
@@ -206,3 +200,10 @@ img[src$=".png"]{
   margin-top: 8px;
 }
 
+#your-projects, #announcements, #trending {
+  border: 3px solid red;
+}
+
+.project-icons svg {
+  width: 2.4vh;
+}
