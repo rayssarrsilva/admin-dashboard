@@ -123,6 +123,7 @@ button {
   width: 57vw;
   outline: none;
   height: 26px;
+  padding: 2px 12px;
 }
 
 .search-bar input:focus {
@@ -193,4 +194,3 @@ img[src$=".png"]{
   margin-top: 30px;
   gap: 40vw;
 }
-
