@@ -241,3 +241,9 @@ img[src$=".png"]{
   flex-direction: column;
   gap: 10px;
 }
+
+article .project-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
