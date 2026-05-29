@@ -212,5 +212,8 @@ img[src$=".png"]{
   --yellow: rgb(255, 145, 0);
   width: 30%;
   height: 25vh;
+  border-radius: 8px;
+  background-color: #FCFCFC;
   border-left: 6px solid var(--yellow);
+  padding: 20px;
 }
