@@ -213,7 +213,7 @@ img[src$=".png"]{
 
 .project {
   --yellow: rgb(255, 145, 0);
-  width: 90%;
+  width: 98%;
   height: 25vh;
   border-radius: 8px;
   background-color: #FCFCFC;
@@ -225,7 +225,7 @@ img[src$=".png"]{
   display: grid;
   grid-template: auto / repeat(2, minmax(30%, auto));
   gap: 24px;
-  column-gap: 34px;
-  margin-left: 18px;
+  column-gap: 65px;
+  margin-left: 23px;
 }
 
