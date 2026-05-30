@@ -219,7 +219,9 @@ img[src$=".png"]{
   padding: 20px;
   margin-bottom: 10px;
 }
-
+#your-projects {
+  margin-left: 35px;
+}
 #The-projects {
   display: grid;
   grid-template: auto / repeat(2, minmax(30%, auto));
@@ -275,7 +277,7 @@ article .project-icons {
   flex-direction: column;
   gap: 10px;
   align-content: flex-end;
-  margin-left: 60px;
+  margin-left: 80px;
   margin-top: 9.3px;
 }
 
@@ -294,4 +296,10 @@ article .project-icons {
 
 #announcements .announces, #The-projects article {
   padding-top: 28px;
+}
+
+#trending {
+  width: 55%;
+  height: auto;
+  background-color: grey;
 }
