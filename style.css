@@ -205,10 +205,6 @@ img[src$=".png"]{
   margin-top: 8px;
 }
 
-#your-projects, #announcements, #trending {
-  /*  border: 3px solid red;*/
-}
-
 .project-icons svg {
   width: 2.4vh;
 }
@@ -287,3 +283,10 @@ article .project-icons {
   padding-left: 5px;
 }
 
+#announcements .announces {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
