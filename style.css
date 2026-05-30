@@ -268,3 +268,6 @@ article .project-icons {
   padding-bottom: 9px;
 }
 
+.announces p:not(:last-child) {
+  border-bottom: 1px solid rgb(210, 208, 208);
+}
