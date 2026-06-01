@@ -195,6 +195,10 @@ img[src$=".png"]{
   display: flex;
 }
 
+#trending h3 {
+  font-weight: bold;
+}
+
 #up, #bottom {
   display: flex;
   flex-wrap: wrap;
