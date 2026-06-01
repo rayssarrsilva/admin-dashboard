@@ -152,6 +152,7 @@ img[src$=".png"]{
 
 .trend img {
   width: 5vh;
+  height: auto;
 }
 
 .trend h4 {
@@ -209,6 +210,7 @@ img[src$=".png"]{
   flex-direction: column;
   gap: 20px;
 }
+
 #trending h3 {
   font-weight: bold;
 }
@@ -335,15 +337,11 @@ article .project-icons {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 10px;
   box-shadow: 0 2px 6px grey;
   padding: 10px;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-right: 3.4vw;
-}
-
-#trendings article div img {
-  height: 2vh;
 }
