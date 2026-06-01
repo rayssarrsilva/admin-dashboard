@@ -281,11 +281,23 @@ article .project-icons {
   background-color: #FCFCFC;
 }
 
-
 .announces p:not(:last-child) {
   border-bottom: 1px solid rgb(210, 208, 208);
   margin-bottom: 20px;
   padding-bottom: 30px;
+  border-width: 30%;
+}
+
+.announces h4:first-child {
+  padding-top: 15px;
+}
+
+article.announces h4, article.announces p {
+  padding-left: 20px;
+}
+
+article.announces h4, article.announces p {
+  padding-right: 15px;
 }
 
 #announcements {
