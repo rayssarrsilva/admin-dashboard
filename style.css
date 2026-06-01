@@ -240,6 +240,7 @@ img[src$=".png"]{
 .project {
   --yellow: rgb(255, 145, 0);
   width: 100%;
+  min-height: auto;
   height: 90%;
   border-radius: 8px;
   background-color: #FCFCFC;
@@ -275,7 +276,6 @@ article .project-icons {
 }
 
 #announcements article {
-  width: 370px;
   height: auto;
   border-radius: 7px;
   background-color: #FCFCFC;
@@ -324,6 +324,7 @@ article.announces h4, article.announces p {
 }
 
 #trendings {
+  min-width: auto;
   width: 370px;
   height: auto;
   background-color: #FCFCFC;
@@ -333,6 +334,7 @@ article.announces h4, article.announces p {
   align-items: flex-start;
   border-radius: 10px;
   box-shadow: 0 2px 6px grey;
+  gap: 40px;
 }
 
 #trending, #your-projects {
@@ -363,4 +365,10 @@ article.announces h4, article.announces p {
 
 #announcements h3, #trending h3 , #your-projects h3 {
   font-size: 1.2rem;
+}
+
+#announcements article,
+#trendings {
+  width: 440px;
+  box-sizing: border-box;
 }
