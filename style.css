@@ -147,6 +147,10 @@ img[src$=".png"]{
   width: 5vh;
 }
 
+.trend h4 {
+  font-weight: 550;
+}
+
 .right img{
   width: 5vh;
 }
