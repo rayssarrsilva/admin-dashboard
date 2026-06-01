@@ -139,8 +139,12 @@ button {
 }
 
 img[src$=".png"]{
-  width: 8vh;
+  width: 10vh;
   height: auto;
+}
+
+.trend img {
+  width: 5vh;
 }
 
 .right img{
@@ -303,4 +307,8 @@ article .project-icons {
   width: 55%;
   height: auto;
   background-color: grey;
+}
+
+#trendings article div img {
+  height: 2vh;
 }
