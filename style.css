@@ -193,6 +193,8 @@ img[src$=".png"]{
 
 .trend {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 #trending h3 {
