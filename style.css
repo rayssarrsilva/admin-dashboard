@@ -25,13 +25,10 @@ img {
   max-inline-size: 100%;
 }
 
-html {
-  font-size: 1.8vh;
+html, button {
+  font-size: 26px;
 }
 
-button {
-  font-size: 1.5vh;
-}
 /*Main layout*/
 
 body {
