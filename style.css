@@ -284,8 +284,8 @@ article .project-icons {
 
 .announces p:not(:last-child) {
   border-bottom: 1px solid rgb(210, 208, 208);
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #announcements {
