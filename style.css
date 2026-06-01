@@ -25,6 +25,13 @@ img {
   max-inline-size: 100%;
 }
 
+html {
+  font-size: 1.8vh;
+}
+
+button {
+  font-size: 1.5vh;
+}
 /*Main layout*/
 
 body {
