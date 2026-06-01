@@ -245,18 +245,13 @@ img[src$=".png"]{
   background-color: #FCFCFC;
   border-left: 9px solid var(--yellow);
   padding: 20px;
-  margin-bottom: 7px;
 }
 
-#your-projects {
-  margin-left: 35px;
-}
 #The-projects {
   display: grid;
   grid-template: auto / repeat(2, minmax(30%, auto));
   gap: 24px;
   column-gap: 65px;
-  margin-left: 23px;
 }
 
 .project, .announces {
@@ -279,11 +274,6 @@ article .project-icons {
   font-weight: bold;
 }
 
-#your-projects h3 {
-  margin-left: 27px;
-  margin-bottom: 15px;
-}
-
 #announcements article {
   width: 55%;
   height: auto;
@@ -304,10 +294,9 @@ article .project-icons {
 #announcements {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   align-content: flex-end;
   margin-left: 80px;
-  margin-top: 9.3px;
 }
 
 #announcements h3 {
@@ -341,4 +330,10 @@ article .project-icons {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-right: 3.4vw;
+}
+
+#trending, #your-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
