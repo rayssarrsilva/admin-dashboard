@@ -296,7 +296,6 @@ article .project-icons {
   flex-direction: column;
   gap: 20px;
   align-content: flex-end;
-  margin-left: 80px;
 }
 
 #announcements h3 {
@@ -336,4 +335,15 @@ article .project-icons {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.announces-trending {
+  display: flex;
+  flex-direction: column;
+}
+
+#trending, #announcements {
+  margin-left: 80px;
+  gap: 20px;
+
 }
