@@ -35,7 +35,7 @@ body {
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
-  background-color: rgb(242, 236, 236);8;ç
+  background-color: rgb(242, 236, 236);
 }
 
 .sidebar {
@@ -86,7 +86,6 @@ a {
 }
 
 .dashboard {
-  height: 100vh;
   min-height: 100vh;
   display: grid;
   grid-template-columns: 280px 1fr;
@@ -131,7 +130,7 @@ button {
   background-color: var(--grey);
   border: var(--grey);
   border-radius: 20px;
-  width: min(600px, 100%);
+  width: 23rem;
   outline: none;
   height: 26px;
 }
@@ -283,10 +282,9 @@ article .project-icons {
 }
 
 #announcements article {
-  max-height: 32rem;
+  max-height: 35.2rem;
   border-radius: 7px;
   background-color: #FCFCFC;
-  overflow-y: auto;
 }
 
 .announces p:not(:last-child) {
@@ -296,7 +294,7 @@ article .project-icons {
 }
 
 .announces h4:first-child {
-  padding-top: 15px;
+  padding-top: 3px;
 }
 
 article.announces h4, article.announces p {
@@ -311,7 +309,6 @@ article.announces h4, article.announces p {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-content: flex-end;
 }
 
 #announcements .announces {
@@ -321,6 +318,17 @@ article.announces h4, article.announces p {
   padding-left: 27px;
   padding-right: 27px;
   gap: 2px;
+}
+
+#your-projects,
+#announcements {
+  gap: 1rem;
+}
+
+#your-projects h3,
+#announcements h3 {
+  margin: 0;
+  line-height: 1;
 }
 
 #announcements .announces {
@@ -338,7 +346,7 @@ article.announces h4, article.announces p {
   align-items: flex-start;
   border-radius: 10px;
   box-shadow: 0 2px 6px grey;
-  gap: 40px;
+  gap: 25px;
 }
 
 #trending {
