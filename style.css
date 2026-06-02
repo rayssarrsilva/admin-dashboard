@@ -390,3 +390,7 @@ article.announces h4, article.announces p {
   flex-direction: column;
   gap: 20px;
 }
+
+.bottom-left div p:last-of-type {
+  font-size: 1.4rem;
+}
