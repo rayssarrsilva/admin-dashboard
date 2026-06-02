@@ -26,7 +26,7 @@ img {
 }
 
 html, button {
-  font-size: 26px;
+  font-size: 16px;
 }
 
 /*Main layout*/
@@ -34,6 +34,8 @@ html, button {
 body {
   margin: 0px;
   padding: 0px;
+  min-height: 100vh;
+  background-color: rgb(242, 236, 236);
 }
 
 .sidebar {
@@ -41,18 +43,18 @@ body {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row: 1/ 3;
-  height: 100%;
 
-  /*elements layout*/
   display: grid;
   grid-template-columns: minmax(2.4vh, 5vh) auto;
-  /*style*/
+
   color: white;
   padding-top: 19px;
   padding-left: 30px;
 
   align-content: start;
   row-gap: 20px;
+
+  min-height: 100%;
 }
 
 .sidebar a:nth-child(2) {
@@ -79,34 +81,30 @@ a {
   box-shadow: 0 3px 13px rgba(0, 0, 0, 0.3);
 }
 
-.header, .sidebar {
+.header {
   overflow: hidden;
 }
 
 .dashboard {
-  width: 100%;
   height: 100vh;
+  min-height: 100vh;
   display: grid;
-  grid-template-columns: 20vw 1fr;
-  grid-template-rows: 19.7vh 1fr;
-  padding: 0;
-  margin: 0;
-
-  overflow: hidden;
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: auto 1fr;
 }
 
 .main-content {
-  grid-row: 2/ 3;
+  grid-row: 2 / 3;
   background-color: rgb(242, 236, 236);
 
-  overflow-y: auto;
-  overflow-x: hidden;
-  min-height: 0;
-
   display: grid;
-  grid-template: auto / repeat(2, minmax(auto, 80%));
+  grid-template-columns: 3fr 1fr;
 
-  padding-top: 30px;
+  padding: 2rem;
+  gap: 5rem;
+  align-items: start;
+
+  height: auto;
 }
 
 button {
@@ -133,7 +131,7 @@ button {
   background-color: var(--grey);
   border: var(--grey);
   border-radius: 20px;
-  width: 46vw;
+  width: min(600px, 100%);
   outline: none;
   height: 26px;
 }
@@ -143,12 +141,12 @@ button {
 }
 
 img[src$=".png"]{
-  width: 10vh;
+  width: 60px;
   height: auto;
 }
 
 .trend img {
-  width: 5vh;
+  width: 40px;
   height: auto;
 }
 
@@ -229,7 +227,7 @@ img[src$=".png"]{
 }
 
 #bottom {
-  gap: 36vw;
+  gap: 2rem;
   margin-top: 8px;
 }
 
@@ -239,20 +237,28 @@ img[src$=".png"]{
 
 .project {
   --yellow: rgb(255, 145, 0);
+
   width: 100%;
-  min-height: auto;
-  height: 90%;
+
+  min-height: 230px;
+
   border-radius: 8px;
   background-color: #FCFCFC;
+
   border-left: 9px solid var(--yellow);
-  padding: 20px;
+
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
 }
+
 
 #The-projects {
   display: grid;
-  grid-template: auto / repeat(2, minmax(30%, auto));
-  gap: 24px;
-  column-gap: 65px;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3rem;
+  column-gap: 5rem;
 }
 
 .project, .announces {
@@ -262,13 +268,15 @@ img[src$=".png"]{
 #The-projects article {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.75rem;
 }
 
 article .project-icons {
   display: flex;
   justify-content: flex-end;
-  gap: 15px;
+  gap: 1rem;
+
+  margin-top: auto;
 }
 
 #announcements article h4, #The-projects article h2, #your-projects h3, #announcements h3{
@@ -306,10 +314,6 @@ article.announces h4, article.announces p {
   align-content: flex-end;
 }
 
-#announcements h3 {
-  padding-left: 5px;
-}
-
 #announcements .announces {
   display: flex;
   flex-direction: column;
@@ -319,7 +323,7 @@ article.announces h4, article.announces p {
   gap: 2px;
 }
 
-#announcements .announces, #The-projects article {
+#announcements .announces {
   padding-top: 28px;
 }
 
@@ -337,23 +341,23 @@ article.announces h4, article.announces p {
   gap: 40px;
 }
 
-#trending, #your-projects {
+#trending {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
+#your-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
 .announces-trending {
   display: flex;
   flex-direction: column;
-}
-
-#trending, #announcements {
-  margin-left: 80px;
-}
-
-#announcements {
-  margin-bottom: 55px;
+  gap: 2rem;
 }
 
 #announcements article, #trendings {
@@ -369,6 +373,13 @@ article.announces h4, article.announces p {
 
 #announcements article,
 #trendings {
-  width: 440px;
+  width: 100%;
+  max-width: 440px;
   box-sizing: border-box;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
