@@ -25,6 +25,10 @@ img {
   max-inline-size: 100%;
 }
 
+html, button {
+  font-size: 26px;
+}
+
 /*Main layout*/
 
 body {
@@ -139,8 +143,17 @@ button {
 }
 
 img[src$=".png"]{
-  width: 8vh;
+  width: 10vh;
   height: auto;
+}
+
+.trend img {
+  width: 5vh;
+  height: auto;
+}
+
+.trend h4 {
+  font-weight: 550;
 }
 
 .right img{
@@ -183,6 +196,21 @@ img[src$=".png"]{
   width: 7.5vh;
 }
 
+.trend {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#trendings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#trending h3 {
+  font-weight: bold;
+}
 
 #up, #bottom {
   display: flex;
@@ -212,23 +240,19 @@ img[src$=".png"]{
 .project {
   --yellow: rgb(255, 145, 0);
   width: 100%;
-  height: 25vh;
+  min-height: auto;
+  height: 90%;
   border-radius: 8px;
   background-color: #FCFCFC;
   border-left: 9px solid var(--yellow);
   padding: 20px;
-  margin-bottom: 7px;
 }
 
-#your-projects {
-  margin-left: 35px;
-}
 #The-projects {
   display: grid;
   grid-template: auto / repeat(2, minmax(30%, auto));
   gap: 24px;
-  column-gap: 84px;
-  margin-left: 23px;
+  column-gap: 65px;
 }
 
 .project, .announces {
@@ -251,35 +275,35 @@ article .project-icons {
   font-weight: bold;
 }
 
-#your-projects h3 {
-  margin-left: 27px;
-  margin-bottom: 15px;
-}
-
 #announcements article {
-  width: 55%;
   height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
   border-radius: 7px;
   background-color: #FCFCFC;
-  padding-top: 9px;
-  padding-bottom: 9px;
 }
 
 .announces p:not(:last-child) {
   border-bottom: 1px solid rgb(210, 208, 208);
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.announces h4:first-child {
+  padding-top: 15px;
+}
+
+article.announces h4, article.announces p {
+  padding-left: 20px;
+}
+
+article.announces h4, article.announces p {
+  padding-right: 15px;
 }
 
 #announcements {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   align-content: flex-end;
-  margin-left: 80px;
-  margin-top: 9.3px;
 }
 
 #announcements h3 {
@@ -299,9 +323,52 @@ article .project-icons {
   padding-top: 28px;
 }
 
-#trending {
-  width: 55%;
+#trendings {
+  min-width: auto;
+  width: 370px;
   height: auto;
-  background-color: grey;
+  background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px grey;
+  gap: 40px;
 }
 
+#trending, #your-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.announces-trending {
+  display: flex;
+  flex-direction: column;
+}
+
+#trending, #announcements {
+  margin-left: 80px;
+}
+
+#announcements {
+  margin-bottom: 55px;
+}
+
+#announcements article, #trendings {
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-right: 3.4vw;
+}
+
+#announcements h3, #trending h3 , #your-projects h3 {
+  font-size: 1.2rem;
+}
+
+#announcements article,
+#trendings {
+  width: 440px;
+  box-sizing: border-box;
+}
